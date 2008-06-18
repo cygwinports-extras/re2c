@@ -1,0 +1,8 @@
+DESCRIPTION="Flexible scanner generator"
+HOMEPAGE="http://re2c.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+
+DIFF_EXCLUDES="scanner.cc re2c.1"
+
+# CHANGELOG (from source) and ChangeLog (for automake)
+USE_MANAGED_MOUNT=1
