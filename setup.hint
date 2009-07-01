@@ -1,5 +1,5 @@
 category: Devel
-requires: cygwin
+requires: libgcc1 libstdc++6
 sdesc: "Flexible scanner generator"
 ldesc: "re2c is a tool for writing very fast and very flexible scanners. 
 Unlike any other such tool, re2c focuses on generating high efficient 

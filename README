@@ -8,18 +8,20 @@ re2c generates warning free code that is equal to hand-written code in
 terms of size, speed and quality.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-50
+  libgcc1-4.3.2-2
+  libstdc++6-4.3.2-2
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20080523-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-20080624-2
   bison-2.3-1
-  cygport-0.3.11-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  make-3.81-1
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -46,21 +48,15 @@ This will create:
 Files included in the binary package:
 
   /usr/bin/re2c.exe
-  /usr/share/doc/re2c-0.13.5/README
+  /usr/share/doc/re2c/README
   /usr/share/man/man1/re2c.1.gz
 
 ------------------
 
 Port Notes:
 
------ version 0.13.5-1 -----
-Version bump.
-
------ version 0.13.4-1 -----
-Version bump.
-
------ version 0.12.3-1 -----
-Initial release for Cygwin.
+----- version 0.13.5-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
